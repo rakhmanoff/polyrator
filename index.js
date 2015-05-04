@@ -42,7 +42,7 @@
     helpText:           '"ptor -a your-component-name": creating a new ' + 
                         'WebComponent named wc-your-component-name in the current directory\n' + 
                         '"ptor -r your-component-name": searching a WebComponent named wc-your-component-name\n' + 
-                        'in the current directory and its subdirs and removed it',
+                        'in the current directory and its subdirs and removing it',
 
     unknownCommand:     'Unknown command. Use an argument "-h" for the help information',
 

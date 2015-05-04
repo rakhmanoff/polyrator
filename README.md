@@ -13,5 +13,5 @@ Generator of templates for creating a web component using Polymer, Jade Template
 
 * `ptor -r your-component-name`
 
-  Searching a WebComponent named wc-your-component-name in the current directory and its subdirs and removed it
+  Searching a WebComponent named wc-your-component-name in the current directory and its subdirs and removing it
 
