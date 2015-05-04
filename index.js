@@ -1,4 +1,4 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
 
 (function() {
   /**
@@ -139,7 +139,7 @@
     if (name.indexOf(WC_PREFIX) === 0) {
       name = name.replace(WC_PREFIX, '');
     }
-    
+
     var baseDir = process.cwd();
 
     dir.subdirs(baseDir, function(err, dirs) {
