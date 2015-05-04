@@ -23,8 +23,8 @@
   "homepage": "https://github.com/volkhv/polyrator",
   "preferGlobal": true,
   "bin": {
-    "polyrator": "./index.js"
-    "ptor": "./index.js",
+    "polyrator": "./index.js",
+    "ptor": "./index.js"
   },
   "dependencies": {
     "node-dir": "^0.1.8",
