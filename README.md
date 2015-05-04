@@ -3,7 +3,7 @@ Generator of templates for creating a web component using Polymer, Jade Template
 
 # Installation
 
-`npm install -g git@github.com:volkhv/polyrator.git`
+`npm install -g git://github.com/volkhv/polyrator`
 
 # API
 
