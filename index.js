@@ -6,7 +6,7 @@
    Use of this source code is governed by a MIT license 
    that can be found in the LICENSE file.
    */
- 
+
   'use strict';
 
   var dir             = require('node-dir');
@@ -25,9 +25,9 @@
   };
 
   var templates = {
-    jade:     __dirname + '/template-jade.jade',
-    styl:     __dirname + '/template-stylus.stylus',
-    js:       __dirname + '/template-js.js'
+    jade:     require.resolve('./template-jade.jade'),
+    styl:     require.resolve('./template-stylus.stylus'),
+    js:       require.resolve('./template-js.js')
   };
 
   var generatedNames = {
@@ -136,6 +136,10 @@
   }
 
   function remove(name) {
+    if (name.indexOf(WC_PREFIX) === 0) {
+      name = name.replace(WC_PREFIX, '');
+    }
+    
     var baseDir = process.cwd();
 
     dir.subdirs(baseDir, function(err, dirs) {
