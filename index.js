@@ -1,3 +1,9 @@
+/**
+ Copyright 2015 Andrey Rakhmanov
+ Use of this source code is governed by a MIT license 
+ that can be found in the LICENSE file.
+ */
+
 #! /usr/bin/env node
 
 (function() {
